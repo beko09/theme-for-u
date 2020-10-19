@@ -1,0 +1,29 @@
+{
+    "name": "four-u",
+    "displayName": "Four U",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "publisher": "abobaker-hilal",
+    "author": {
+        "name": "Abobaker Hilal"
+    },
+    "license": "",
+    "homepage": "",
+    "keywords": ["dark","vs code dark","dark theme","theme dark","dark mode"],
+    "icon": "for-u.png",
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Four U",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Four U-color-theme.json"
+            }
+        ]
+    }
+}
